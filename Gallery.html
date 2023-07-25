@@ -1,0 +1,133 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="css/Gallery.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="images/mlogo.png">
+        <style>
+       img:hover {
+            border: 1px solid orange;
+             
+         }
+        </style>
+        </head>
+        <body>
+            <header>
+                <div class="wrapper">
+
+                    <div class="logo">
+                    <h2><a href="Ali.html">Muhammed <span>Ali</span></a></h2>
+                    </div>
+             
+                    <ul class="menu">
+                    <li><a href="Ali.html">Home</a></li>
+                    <li><a href="Biography.html">Biography</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Fight.html">Fights</a></li>
+                    </ul>
+            
+                </div>
+             </header>
+                <section id="gallery">
+                    <div class="title2">
+                        <h2>Images of Muhammed Ali</h2>
+                        </div>
+                 <div class="pictures">
+                    
+                    <img src="images/30.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/31.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/32.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/33.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/34.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/35.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/36.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/37.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/38.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/39.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/9.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/10.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/3.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/4.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/5.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/6.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/7.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/8.jpg" alt="muhammed ali"  onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/12.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/13.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/14.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/15.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/16.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/17.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/18.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/19.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/20.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/21.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/22.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/24.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/26.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/27.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/28.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/29.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/1.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                    <img src="images/2.jpg" alt="muhammed ali" onclick="enterFullscreen(this)" class="zoom">
+                 </div>
+    
+                </section>
+
+                <div class="animation">
+                    <div class="quote-container6">
+                        <blockquote class="quote6">"I am the greatest. I said that even before I knew I was."
+                            <sub><sub><sub>Muhammed Ali.</sub></sub></sub></blockquote>
+                      </div>
+        
+                </div>
+                <script>
+                    const quoteContainer6 = document.querySelector('.quote-container6');
+    
+                    window.addEventListener('scroll', () => {
+                        const quoteContainer6Position = quoteContainer6.getBoundingClientRect().top;
+    
+                        if (quoteContainer6Position < window.innerHeight * 0.75) {
+                        quoteContainer6.classList.add('visible');
+                       }
+                    });
+                    </script>
+        
+                <script>
+                    function enterFullscreen(element) {
+                        if (element.requestFullscreen) {
+                            element.requestFullscreen();
+                        } else if (element.webkitRequestFullscreen) { /* Safari */
+                            element.webkitRequestFullscreen();
+                        } else if (element.msRequestFullscreen) { /* IE11 */
+                            element.msRequestFullscreen();
+                        }
+                    }
+                </script>
+                 <footer class="footer">
+                    <div class="row">
+                        <div class="column">
+                            <h3>Contact us</h3>
+                            <ul>
+                                <li>Call </li>
+                                <li>+251 983716565</li>
+                                <li>E-mail </li>
+                                <li>fistumkirubeldeke@gmail.com</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Follow us on social media</h3>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+            
+                        </div>
+                    </div>
+        </footer>
+                </body>
+                </html>

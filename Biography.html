@@ -1,0 +1,123 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Biography</title>
+        <link rel="stylesheet" href="css/Biography.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="icon" type="image/x-icon" href="images/mlogo.png">
+        <style>
+            img:hover {
+            border: 1px solid orange;
+             
+         }
+        </style>
+   </head>
+        <body>
+          <header>
+            <div class="wrapper">
+
+                <div class="logo">
+                <h2><a href="Ali.html">Muhammed <span>Ali</span></a></h2>
+                </div>
+         
+                <ul class="menu">
+                <li><a href="Ali.html">Home</a></li>
+                <li><a href="Biography.html">Biography</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="Fight.html">Fights</a></li>
+                </ul>
+        
+            </div>
+         </header>
+             <div class="title">
+              <h2>Biography</h2>
+             </div>
+             <div class="container">
+                <div class="image">
+                    <img src="images/sonny.jpg" alt="Image of Ali" onclick="enterFullscreen(this)" >
+                </div>
+                <div class="biography">
+               <p> Muhammad Ali (1942-2016) was an American professional boxer, social activist, and philanthropist.
+               He is widely considered one of the greatest boxers of all time, and his impact on both the sport of boxing
+               and American culture is immeasurable.
+
+               Born Cassius Marcellus Clay Jr. in Louisville, Kentucky, Ali began boxing at a young age and quickly made
+               a name for himself as an amateur fighter. After winning a gold medal at the 1960 Summer Olympics in Rome,
+               he turned professional and won his first 19 fights, becoming the heavyweight champion of the world in 1964 
+               after defeating Sonny Liston.
+                
+               Ali was known for his unique fighting style, which combined speed, agility, and power. He was also known for
+               his showmanship and his ability to taunt and trash-talk his opponents in and out of the ring. Ali was a three
+               -time heavyweight champion, winning the title in 1964, 1974, and 1978. He retired from boxing in 1981 with a
+               record of 56 wins, 5 losses, and 37 knockouts.
+                
+               In addition to his boxing career, Ali was a prominent civil rights activist and an outspoken critic of the Vietnam
+               War. He converted to Islam in the early 1960s and changed his name from Cassius Clay to Muhammad Ali. He refused
+               to be drafted into the military during the Vietnam War, citing his religious beliefs and opposition to the war.
+               As a result, he was stripped of his boxing titles and banned from the sport for over three years.
+                
+               Ali's activism and courage outside of the ring made him a hero to many people around the world, and he was widely
+               respected for his willingness to stand up for what he believed in. After retiring from boxing, he devoted much of
+               his time to philanthropy and humanitarian work, including efforts to promote peace and understanding between different
+               cultures and religions.
+                
+              Ali was diagnosed with Parkinson's disease in 1984, which many believe was caused by the head trauma he suffered during
+              his boxing career. Despite his declining health, he remained a beloved and influential figure until his death in 2016.
+              His legacy as a champion boxer, civil rights activist, and humanitarian continues to inspire people around the world.</p>
+                </div>
+              </div>
+
+              <div class="animation">
+              <div class="quote-container5">
+                <blockquote class="quote5">"I hated every minute of training, but I said, 'Don't quit. Suffer now and live the rest of your life as a champion."
+                    <sub><sub><sub>Muhammed Ali.</sub></sub></sub></blockquote>
+              </div>
+              </div>
+              <script>
+                const quoteContainer5 = document.querySelector('.quote-container5');
+
+                window.addEventListener('scroll', () => {
+                    const quoteContainer5Position = quoteContainer5.getBoundingClientRect().top;
+
+                    if (quoteContainer5Position < window.innerHeight * 0.75) {
+                    quoteContainer5.classList.add('visible');
+                   }
+                });
+                </script>
+              <footer class="footer">
+                <div class="row">
+                    <div class="column">
+                        <h3>Contact us</h3>
+                        <ul>
+                            <li>Call </li>
+                            <li>+251 983716565</li>
+                            <li>E-mail </li>
+                            <li>fistumkirubeldeke@gmail.com</li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <h3>Follow us on social media</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+        
+                    </div>
+                </div>
+    </footer>
+    <script>
+      function enterFullscreen(element) {
+          if (element.requestFullscreen) {
+              element.requestFullscreen();
+          } else if (element.webkitRequestFullscreen) { /* Safari */
+              element.webkitRequestFullscreen();
+          } else if (element.msRequestFullscreen) { /* IE11 */
+              element.msRequestFullscreen();
+          }
+      }
+  </script>
+        </body>
+</html>
