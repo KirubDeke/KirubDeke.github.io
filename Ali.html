@@ -9,12 +9,6 @@
         <link rel="icon" type="image/x-icon" href="images/mlogo.png">
     
         <style>
-           /* .zoom {
-			transition: transform 0.5s; 
-		}
-		.zoom:hover {
-			transform: scale(1.1); 
-		} */
         img:hover {
             border: 1px solid orange;
              
@@ -241,39 +235,6 @@
                     <sub><sub><sub>Muhammed Ali.</sub></sub></sub></blockquote>
               </div>
             </div>
-
-
-
-
-            <script>
-                <!--jsanimation for the quote-->
-                const biography = document.querySelector('.container .biography');
-                const container = document.querySelector('.container');
-        
-                function isElementInViewport(el) {
-                const rect = el.getBoundingClientRect();
-                return (
-               rect.top >= 0 &&
-               rect.left >= 0 &&
-               rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
-               rect.right <= (window.innerWidth || document.documentElement.clientWidth)
-               );
-               }
-    
-               function handleScroll() {
-    
-             // Handle the biography container animation
-             if (isElementInViewport(container)) {
-             biography.classList.add('visible');
-            }
-           }
-             
-            window.addEventListener('scroll', handleScroll);
-           </script> 
-
-
-
-
 
             <!--animation for quote2-->
            <script>

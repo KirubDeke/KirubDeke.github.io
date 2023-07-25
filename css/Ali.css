@@ -179,16 +179,15 @@ header{
   margin-left: 1rem;
   text-align: justify;
   color: black;
-  transform: scale(0);
-  opacity: 0;
-  transition: transform 2s, opacity 2s;
+ 
+}
+ /* transition: transform 2s, opacity 2s;
 }
 .biography.visible {
   transform: scale(1);
   opacity: 1;
 }
-
-/*.biography::after {
+.biography::after {
   content: "";
   display: inline-block;
   width: 100%;
