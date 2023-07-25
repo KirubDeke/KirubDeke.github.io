@@ -83,7 +83,7 @@ header{
     
 }
 .pictures img{
-    width: calc(30% - 10px);
+    width: calc(20% - 10px);
     height: 300px;
     margin-bottom: 20px;
     border-radius: 10px;
