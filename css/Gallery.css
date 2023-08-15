@@ -6,6 +6,14 @@
   font-family: kalam;
   src: url(Kalam-Bold.otf);
 }
+@font-face {
+  font-family: supreme;
+  src: url(Supreme-Medium.otf);
+}
+@font-face {
+  font-family: chillax;
+  src: url(Chillax-Bold.otf);
+}
 header{
     background: #1c1c1e;
     height: 200px;
@@ -31,6 +39,7 @@ header{
      text-transform: uppercase;
      font-weight: bold;
      font-size: 20px;
+     font-family: supreme;
    }
    .menu li a:hover{
      color: white;
@@ -41,6 +50,7 @@ header{
      margin-top: 25px;
      margin-left: 15px;
      font-weight: bold;
+     font-family: chillax!important;
        
    }
    .logo a{
@@ -152,10 +162,10 @@ header{
   .visible .quote6::before {
     width: 100%;
   }
-  @media(max-width:768px){
+  @media (max-width: 768px){
     .logo{
       float: none;
-      width: 50%;
+      width: 70%;
       text-align: center;
       margin: auto;
       margin-bottom: 5px;

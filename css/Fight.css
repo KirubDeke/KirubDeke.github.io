@@ -10,6 +10,14 @@
   font-family: kalam;
   src: url(Kalam-Bold.otf);
 }
+@font-face {
+  font-family: chillax;
+  src: url(Chillax-Bold.otf);
+}
+@font-face {
+  font-family: supreme;
+  src: url(Supreme-Medium.otf);
+}
 header{
     background: #1c1c1e;
     height: 200px;
@@ -35,6 +43,7 @@ header{
      text-transform: uppercase;
      font-weight: bold;
      font-size: 20px;
+     font-family: supreme;
    }
    .menu li a:hover{
      color: white;
@@ -45,6 +54,7 @@ header{
      margin-top: 25px;
      margin-left: 15px;
      font-weight: bold;
+     font-family: chillax;
        
    }
    .logo a{
@@ -54,10 +64,10 @@ header{
    .logo a span {
        color: white;
      }
-     @media(max-width:650px){
+     @media (max-width: 768px){
       .logo{
         float: none;
-        width: 50%;
+        width: 70%;
         text-align: center;
         margin: auto;
         margin-bottom: 5px;
@@ -73,6 +83,7 @@ header{
         padding: 5px;
         font-size: 11px;
         font-weight: bold;
+        
       }
     }
    .fight{

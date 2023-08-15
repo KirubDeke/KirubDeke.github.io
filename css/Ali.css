@@ -57,16 +57,17 @@ header{
 }
 .logo{
   float: left;
-  font-family: chillax ;
   font-size: 40px;
   margin-top: 25px;
   margin-left: 15px;
   font-weight: bold;
+  
     
 }
 .logo a{
     text-decoration: none;
     color: orange;
+    font-family: chillax!important;
 }
 .logo a span {
     color: white;
@@ -474,10 +475,10 @@ header{
     width: 100%;
   }
 
-  @media(max-width:768px){
+  @media (max-width: 768px){
     .logo{
       float: none;
-      width: 50%;
+      width: 70%;
       text-align: center;
       margin: auto;
       margin-bottom: 5px;
