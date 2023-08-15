@@ -504,6 +504,9 @@ header{
     .story pre{
       font-size: 11px;
       text-align: justify;
+      width: 60%!important;
+      height: 100%;
+      margin: 40% 10%;
   
     }
     .Ali-biography{
