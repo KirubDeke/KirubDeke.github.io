@@ -499,14 +499,10 @@ header{
     .story{
       width: 100%;
       height: 100%;
-      margin: 30% 0;
+      margin: 30% 3%;
     }
     .story pre{
       font-size: 8px;
-      text-align: justify;
-      width: 60%!important;
-      height: 100%;
-      margin: 40% 10%;
   
     }
     .Ali-biography{
