@@ -509,17 +509,17 @@ header{
     .Ali-biography{
       height: auto;
     }
-    .Ali-biography .container{
+    .Ali-biography .container {
       display: flex;
       flex-direction: column;
-    }
-    .container p{
-      word-spacing:-0.2rem;
+  }
+  .Ali-biography .container .image img {
+      width: 200px;
+  }
+  .Ali-biography .container .biography p {
+      word-spacing: -0.2rem;
       line-height: 2rem;
-    }
-     .container image{
-      width: 200px!important;
-    }
+  }
     #gallery .pictures img {
       padding-left: 35px;
       padding-right: 10px;

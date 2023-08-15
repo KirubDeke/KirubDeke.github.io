@@ -216,7 +216,7 @@ body{
     }
     .container{
       display: flex;
-      flex-direction: column;
+      flex-direction: column!important;
     }
     .container .image img{
       width: 400px;
