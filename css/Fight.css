@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+  font-family: sand;
+  src: url(Quicksand-Bold.otf);
+}
+@font-face {
+  font-family: kalam;
+  src: url(Kalam-Bold.otf);
+}
 header{
     background: #1c1c1e;
     height: 200px;
@@ -104,6 +112,7 @@ header{
   }
   .box p{
     padding-top: 20px;
+    font-family: sand;
   }
   .box h2{
     padding-top: 20px;
@@ -176,6 +185,7 @@ header{
   .quote-container7 .quote7{
     font-size: 24px;
     font-style: italic;
+    font-family: kalam;
     position: relative;
     padding-left: 500px;
     z-index: 1;

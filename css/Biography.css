@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+  font-family: sand;
+  src: url(Quicksand-Bold.otf);
+}
+@font-face {
+  font-family: kalam;
+  src: url(Kalam-Bold.otf);
+}
 header{
   background: #1c1c1e;
   height: 200px;
@@ -47,26 +55,7 @@ header{
  .logo a span {
      color: white;
    }
-   @media(max-width:650px){
-    .logo{
-      float: none;
-      width: 50%;
-      text-align: center;
-      margin: auto;
-      margin-bottom: 5px;
   
-  
-    }
-    .menu{
-      float: none;
-      margin-top: 0;
-      text-align: center;
-    }
-    .menu li a{
-      padding: 5px;
-      font-size: 11px;
-    }
-  }
  .title{
   text-align: center;
   padding-top: 70px;
@@ -78,6 +67,7 @@ header{
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    
   }
   
   .image {
@@ -104,6 +94,7 @@ header{
     line-height: 20px;
     padding-left: 20px;
     padding-right: 50px;
+    font-family: sand!important;
 }
 body{
     background: whitesmoke;
@@ -164,6 +155,7 @@ body{
   .quote-container5 .quote5 {
     font-size: 24px;
     font-style: italic;
+    font-family: kalam;
     position: relative;
     padding-left: 500px;
     z-index: 1;
@@ -192,4 +184,35 @@ body{
   
   .visible .quote5::before {
     width: 100%;
+  }
+  @media(max-width:768px){
+    .logo{
+      float: none;
+      width: 50%;
+      text-align: center;
+      margin: auto;
+      margin-bottom: 5px;
+  
+  
+    }
+    .menu{
+      float: none;
+      margin-top: 0;
+      text-align: center;
+    }
+    .menu li a{
+      padding: 5px;
+      font-size: 11px;
+    }
+    .container{
+      display: flex;
+      flex-direction: column;
+    }
+    .container .image img{
+      width: 400px;
+    }
+    .container p{
+      word-spacing:-0.2rem;
+      line-height: 2rem;
+    }
   }
