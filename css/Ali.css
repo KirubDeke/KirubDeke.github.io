@@ -1,6 +1,5 @@
 *{
     margin: 0;
-    margin-top: 0%;
     padding: 0;
     font-family:'Josefin sans', sans-serif;
 }
@@ -72,18 +71,17 @@ header{
 .logo a span {
     color: white;
   }
- .story pre{
+ .story p{
   position: absolute;
-  width: 600px;
-  height: 300px;
-  margin: 30% 0%;
+  width:80%;
+  margin: 30% 10%;
   text-align: center;
   color: white;
   font-weight: bold;
   font-size: x-large;
   font-family: sand
  }
- pre span{
+ p span{
   color: orange;
  }
 
@@ -476,9 +474,10 @@ header{
   }
 
   @media (max-width: 768px){
-    .logo{
+    
+   .logo{
       float: none;
-      width: 70%;
+      font-size: 28px;
       text-align: center;
       margin: auto;
       margin-bottom: 5px;
@@ -497,13 +496,12 @@ header{
   
     }
     .story{
-      width: 100%;
+      width: 80%;
       height: 100%;
-      margin: 30% 3%;
+      margin: 30% 5%;
     }
-    .story pre{
-      font-size: 8px;
-  
+    .story p{
+      font-size: 16px;
     }
     .Ali-biography{
       height: auto;
@@ -513,7 +511,7 @@ header{
       flex-direction: column;
   }
   .Ali-biography .container .image img {
-      width: 200px;
+      width: 325px;
   }
   .Ali-biography .container .biography p {
       word-spacing: -0.2rem;

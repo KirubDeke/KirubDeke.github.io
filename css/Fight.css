@@ -67,7 +67,7 @@ header{
      @media (max-width: 768px){
       .logo{
         float: none;
-        width: 70%;
+        font-size: 28px;
         text-align: center;
         margin: auto;
         margin-bottom: 5px;
